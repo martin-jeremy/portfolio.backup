@@ -1,0 +1,178 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Bioinformatics"
+  filter: "bioinformatics"
+- name: "Immunology"
+  filter: "immunology"
+- name: "Neurology"
+  filter: "neurology"
+- name: "Technology"
+  filter: "technology"
+- name: "Transcriptomics"
+  filter: "transcriptomics"
+
+# publications
+publications:
+- title: 'Landscape of mast cell populations across organs in mice and humans.'
+  publishedIn:
+    name: Journal of Experimental Medicine
+    date: Accepted, In Production [Not Published Yet]
+    url: https://rupress.org/jem
+  authors:
+    - name: Marie Tauber
+      url: "#publications"
+    - name: Lilian Basso
+      url: "#publications"
+    - name: Jérémy Martin
+      url: "#publications"
+    - name: Luciana Bostan
+      url: "#publications"
+    - name: Marlene Magalhaes Pinto
+      url: "#publications"
+    - name: Guilhem Thierry
+      url: "#publications"
+    - name: Raissa Houmadi
+      url: "#publications"
+    - name: Nadine Serhan
+      url: "#publications"
+    - name: Alexia Loste
+      url: "#publications"
+    - name: Camille Bleriot
+      url: "#publications"
+    - name: Jasper Kamphuis
+      url: "#publications"
+    - name: Mirjana Grujic
+      url: "#publications"
+    - name: Lena Kjellén
+      url: "#publications"
+    - name: Gunnar Pejler
+      url: "#publications"
+    - name: Carle Paul
+      url: "#publications"
+    - name: Xinzhong Dong
+      url: "#publications"
+    - name: Stephen Galli
+      url: "#publications"
+    - name: Laurent Reber
+      url: "#publications"
+    - name: Florent Ginhoux
+      url: "#publications"
+    - name: Marc Bajenoff
+      url: "#publications"
+    - name: Rebecca Gentek
+      url: "#publications"
+    - name: Nicolas Gaudenzio
+      url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
+  paper:
+    summary: Mast cells (MCs) are tissue-resident immune cells which exhibit homeostatic and neuron-associated functions. Here we combined whole-tissue imaging and single cell RNA sequencing datasets to generate a pan-organ analysis of MCs in mice and humans at steady state.
+    url: https://doi.org/10.1084/jem.20230570
+  categories: ["bioinformatics", "immunology", "neurology", "transcriptomics"]
+  tags: ["Bioinformatics", "Immunology", "Transcriptomics"]
+
+- title: '3-D deconvolution of human skin immune architecture with Multiplex ANnotated Tissue Imaging System (MANTIS)'
+  publishedIn:
+    name: ScienceAdvances
+    date: June, 2023
+    url: https://wwww.biorxiv.org
+  authors:
+    - name: Manon Scholaert
+      url: "#publications"
+    - name: Raissa Houmadi
+      url: "#publications"
+    - name: Jérémy Martin
+      url: "#publications"
+    - name: Nadine Serhan
+      url: "#publications"
+    - name: Marie Tauber
+      url: "#publications"
+    - name: Emilie Braun
+      url: "#publications"
+    - name: Lilian Basso
+      url: "#publications"
+    - name: Eric Merle
+      url: "#publications"
+    - name: Pascal Descargues
+      url: "#publications"
+    - name: Manuelle Viguier
+      url: "#publications"
+    - name: Cécile Lesort
+      url: "#publications"
+    - name: Benoît Chaput
+      url: "#publications"
+    - name: Jean Kanitakis
+      url: "#publications"
+    - name: Denis Julien
+      url: "#publications"
+    - name: Cristina Bulai Livideanu
+      url: "#publications"
+    - name: Laurence Lamant
+      url: "#publications"
+    - name: Emeline Pagès
+      url: "#publications"
+    - name: Nicolas Gaudenzio
+      url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
+  paper:
+    summary: Routine clinical assays, such as conventional immunohistochemistry, often fail to resolve the regional heterogeneity of complex inflammatory skin conditions. Here we introduce MANTIS (Multiplexed Annotated Tissue Imaging System), a flexible analytic pipeline compatible with routine practice, specifically-designed for spatially-resolved immune phenotyping of the skin in experimental or clinical samples. Based on phenotype attribution matrices coupled to α-shape algorithms, MANTIS projects a representative digital immune landscape, while enabling automated detection of major inflammatory clusters and concomitant single-cell data quantification of biomarkers. 
+    url: https://doi.org/10.1126/sciadv.adf9491
+  categories: ["bioinformatics", "immunology", "technology" ]
+  tags: ["Bioinformatics", "Immunology", "Multiplex imaging", "Skin", "Technology"]
+
+- title: The neuronal tyrosine kinase receptor ligand ALKAL2 mediates persistent pain
+  publishedIn:
+    name: The Journal of Clinical Investigation
+    date: May 2022
+    url: https://www.jci.org/
+  authors:
+  - name: Manon Defaye
+    url: '#publications'
+  - name: Mircea C. Iftinca
+    url: '#publications'
+  - name: Vinicius M. Gadotti
+    url: '#publications'
+  - name: Lilian Basso
+    url: '#publications'
+  - name: Nasser S. Abdullah
+    url: '#publications'
+  - name: Mélissa Cuménal
+    url: '#publications'
+  - name: Francina Agosti
+    url: '#publications'
+  - name: Ahmed Hassan
+    url: '#publications'
+  - name: Robyn Flynn
+    url: '#publications'
+  - name: Jérémy Martin
+    url: '#publications'
+  - name: Vanessa Soubeyre
+    url: '#publications'
+  - name: Gaetan Poulen
+    url: '#publications'
+  - name: Nicolas Lonjon
+    url: '#publications'
+  - name: Florence Vachiery-Lahaye
+    url: '#publications'
+  - name: Luc Bauchet
+    url: '#publications'
+  - name: Pierre Francois Mery
+    url: '#publications'
+  - name: Emmanuel Bourinet
+    url: '#publications'
+  - name: Gerald W. Zamponi
+    url: '#publications'
+  - name: Christophe Altier
+    url: https://www.ucalgary.ca/irn/christophe-altier
+  paper:
+    summary: The anaplastic lymphoma kinase (ALK) is a receptor tyrosine kinase known for its oncogenic potential that is involved in the development of the peripheral and central nervous system. ALK receptor ligands ALKAL1 and ALKAL2 were recently found to promote neuronal differentiation and survival. Here, we show that inflammation or injury enhanced ALKAL2 expression in a subset of TRPV1+ sensory neurons. Notably, ALKAL2 was particularly enriched in both mouse and human peptidergic nociceptors, yet weakly expressed in nonpeptidergic, large-diameter myelinated neurons or in the brain. Using a coculture expression system, we found that nociceptors exposed to ALKAL2 exhibited heightened excitability and neurite outgrowth. Intraplantar CFA or intrathecal infusion of recombinant ALKAL2 led to ALK phosphorylation in the lumbar dorsal horn of the spinal cord. Finally, depletion of ALKAL2 in dorsal root ganglia or blocking ALK with clinically available compounds crizotinib or lorlatinib reversed thermal hyperalgesia and mechanical allodynia induced by inflammation or nerve injury, respectively. Overall, our work uncovers the ALKAL2/ALK signaling axis as a central regulator of nociceptor-induced sensitization. We propose that clinically approved ALK inhibitors used for non–small cell lung cancer and neuroblastomas could be repurposed to treat persistent pain conditions.
+    url: http://dx.doi.org/10.1172/JCI154317
+  categories: ["bioinformatics", "neurology"]
+  tags: ["Bioinformatics", "Neuroinflammtation", "Neurology", "Sensory neurons"]

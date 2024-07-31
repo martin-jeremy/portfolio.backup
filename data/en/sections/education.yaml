@@ -1,0 +1,106 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: M.Sc. in Bioinformatics and System Biology
+  icon: fa-graduation-cap
+  timeframe: 2020-2021
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 1
+    outOf: 16
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: System Biology and Modelisation
+    - name: Introduction to Machine Learning
+    - name: Scientific Communications
+    - name: Advanced databases
+    - name: Heterogeneous Data Integration
+    - name: Phylogenomics
+    - name: Introduction to Paleogenomics
+    - name: 6-Months Internship
+  extracurricularActivities:
+  - '6-Months Internship: Study of the communication between sensory neurons and immune cells during allergic contact dermatitis: a bioinformatic approach.'
+
+- name: B.Sc. Hons. in Bioinformatics & System Biology
+  icon: fa-graduation-cap
+  timeframe: 2019-2020
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 3
+    outOf: 17
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Sequences Bioinformatics
+    - name: Genomics Bioinformatics
+    - name: Programation applied to Bioinformatics (Python)
+    - name: Graphs and Biological Networks
+    - name: Introduction to databases
+    - name: Mathematics for Biology
+    - name: Algorithmic and Complexity
+    - name: Postgenomic data treatment
+    - name: Molecular Evolution
+    - name: Data Mining
+    - name: Avanced Programation and Software Engineering (Java)
+    - name: Multivariate Analysis
+    - name: Biostatistics and Linear Models
+  extracurricularActivities:
+  - '2-Months Internship: Polled-HiC, an analysis to map chromosomic regions of interest in bovine models.'
+  - 'Tutored Project: Benchmarking of read counting tools and characterization of a difference in the calculation of the sequencing depth.'
+
+- name: B.Sc. in Biochemistry, Microbiology & Molecular Biology
+  icon: fa-graduation-cap
+  timeframe: 2017-2019
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/licence-parcours-biochimie-biologie-moleculaire-et-microbiologie-2b2m"
+  takenCourses: 
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Structural Biochemistry
+    - name: Analytical Biochemistry
+    - name: Microbiology and Molecular Genetics
+    - name: Methodology in Molecular Biology
+    - name: Immunology
+    - name: Bioanalysis
+    - name: Interaction Protein-Protein
+    - name: Metabolisme and Enzymology
+    - name: Cellular Biology
+
+- name: H.N.D. in Medical Laboratory Technology
+  icon: fa-university
+  timeframe: 2012-2014
+  institution:
+    name: Dr Lacroix High School
+    url: "https://docteur-lacroix.mon-ent-occitanie.fr/"
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Technical and Clinical Biochemistry
+    - name: Technical and Clinical Hematology
+    - name: Technical and Clinical Bacteriology
+    - name: Technical and Clinical Parasitology
+    - name: Technical and Clinical Immunology
+    - name: Human Biology and Homeostasis
+    - name: Lab Quality
+  extracurricularActivities:
+  - 'Internship: Pathological Department of Toulouse Hospital. Internship within the Cytology department, acquisition of good practice in cytology and histology lab, classical techniques and advanced (immuno)-hysto/cytochemistry.'

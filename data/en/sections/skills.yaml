@@ -1,0 +1,53 @@
+# Section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+# Your skills
+skills:
+- name: R / RMarkdown
+  logo: images/sections/skills/Rmd.png
+  summary: "Using as main language for data analysis in academic fields. Building automated reports with RMarkdown extension. **Commonly used library:** _Tidyverse, Seurat, Monocle, DESeq2, Limma, Bioconductor environment_."
+  url: "https://www.r-project.org/"
+
+- name: RShiny
+  logo: images/sections/skills/RShiny.png
+  summary: "Building Web Dashboard to present data and conclusions with RShiny framework. Building Web Application to allow exploration of single-cell RNA-seq data by biologists. **Commonly used library:** _Shiny, ShinyBS, ShinyDashboard, plotly, ShinyJS_."
+  url: "https://shiny.rstudio.com/"
+
+- name: Python
+  logo: images/sections/skills/python.png
+  summary: "Data processing and proof of concept for IA applied to biology. Initiation to GUI with Python using to Qt for Python. **Commonly used package:** _Num/SciPy, Pandas, Keras, Scikit-Learn, Plotly_."
+  url: "https://www.python.org/psf/"
+
+- name: Snakemake
+  logo: images/sections/skills/Snakemake.png
+  summary: "Workflow manager used to automated in a reproducible way analysis pipeline. Snakemake developped to realize bulk RNA-seq processing and Hi-C processing."
+  url: "https://snakemake.readthedocs.io/en/stable/"
+
+- name: Linux
+  logo: images/sections/skills/Linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts. Versatile with a terminal emulator. Familiarized working with HPC SLURM cluster ([GenoToul](http://bioinfo.genotoul.fr/))."
+
+- name: Git
+  logo: images/sections/skills/Git.png
+  summary: "Experienced with git-based developpement. Mostly, use GitHub in personal account and with an organisational account. Also, have experience in working with GitLab."
+  url: "https://git-scm.com"
+
+- name: Alphafold
+  logo: images/sections/skills/Deepmind.png
+  summary: "Getting started with Alphafold and Alphafold-multimer. Data visualization and model manipulation with ChimeraX from UCSC."
+  url: "https://github.com/deepmind/alphafold"
+
+- name: ISTQB
+  logo: images/sections/skills/istqb.png
+  summary: "ISTQB Foundation (v4) certified."
+  url: "https://istqb.org"
+
+# - name: Cluster Computing
+#   logo: images/sections/skills/
+#   summary:
+#   url:

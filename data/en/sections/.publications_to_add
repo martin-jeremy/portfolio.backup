@@ -1,0 +1,55 @@
+- title: 'Single-cell landscape of mast cell populations across organs reveals insights into cell diversity in mice and humans.'
+  publishedIn:
+    name: Journal of Experimental Medicine
+    date: 
+    url: https://rupress.org/jem
+  authors:
+    - name: Marie Tauber
+      url: "#publications"
+    - name: Lilian Basso
+      url: "#publications"
+    - name: Jérémy Martin
+      url: "#publications"
+    - name: Luciana Bostan
+      url: "#publications"
+    - name: Marlene Magalhaes Pinto
+      url: "#publications"
+    - name: Guilhem Thierry
+      url: "#publications"
+    - name: Raissa Houmadi
+      url: "#publications"
+    - name: Nadine Serhan
+      url: "#publications"
+    - name: Alexia Loste
+      url: "#publications"
+    - name: Camille Bleriot
+      url: "#publications"
+    - name: Jasper Kamphuis
+      url: "#publications"
+    - name: Mirjana Grujic
+      url: "#publications"
+    - name: Lena Kjellén
+      url: "#publications"
+    - name: Gunnar Pejler
+      url: "#publications"
+    - name: Carle Paul
+      url: "#publications"
+    - name: Xinzhong Dong
+      url: "#publications"
+    - name: Stephen Galli
+      url: "#publications"
+    - name: Laurent Reber
+      url: "#publications"
+    - name: Florent Ginhoux
+      url: "#publications"
+    - name: Marc Bajenoff
+      url: "#publications"
+    - name: Rebecca Gentek
+      url: "#publications"
+    - name: Nicolas Gaudenzio
+      url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
+  paper:
+    summary: Mast cells (MCs) are tissue-resident immune cells which exhibit homeostatic and neuron-associated functions. Here we combined whole-tissue imaging and single cell RNA sequencing datasets to generate a pan-organ analysis of MCs in mice and humans at steady state.
+    url: 
+  categories: ["bioinformatics", "immunology", "neurology", "transcriptomics"]
+  tags: ["Bioinformatics", "Immunology", "Transcriptomics"]

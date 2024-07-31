@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# filter buttons
+buttons:
+- name: "All"
+  filter: "all"
+- name: "Professional"
+  filter: "Professional"
+- name: "Personal"
+  filter: "Personal"
+- name: "Presentation"
+  filter: "Presentation"
+- name: "R"
+  filter: "R"
+- name: "Python"
+  filter: "Python"
+
+
+# your projects
+projects:
+# - name:
+#   role:
+#   timeline:
+#   repo:
+#   url:
+#   summary:
+#   tags:
+
+- name: Single cell analysis of mast cell populations across organs reveals insights into cell origins, anatomical niches and neuron-associated functions
+  logo: /images/sections/projects/genotoul.png
+  role: Talk
+  timeline: "Journée de rencontre GenoToul Bioinfo / Biostat - 1er Dec. 2022"
+  # repo:
+  url: https://bioinfo-biostat.sciencesconf.org/
+  summary: "Les mastocytes (MCs) sont des cellules immunitaires résidents des tissus qui peuvent être identifiés comme associés au tissus conjonctifs (CTMCs) ou associés au muqueuse (MMCs). Grâce aux techniques de séquençage de l'ARN en cellule unique, nous avons pu établir le profil transcriptomique de ces cellules, comprenant leurs fonctions et leurs empreintes tissulaires, dans le but de développer un atlas transcriptomique des mastocytes de différents organes chez l'humain et la souris."
+  tags: ['Academic', 'Professional', 'Transcriptomics', 'Presentation']
+
+- name: Consideration of data heterogeneity and automation of single cell RNA-seq processing
+  logo: /images/sections/projects/genotoul.png
+  role: Talk
+  timeline: "Journée Scientifique de Toulouse Genopole - 11 Juil. 2022"
+  # repo:
+  url: https://www.genotoul.fr/journee-scientifique-2022/
+  summary: "Invité à la Journée Scientifique organisée par GenoToul pour discuter de l'hétérogénéité des données en scRNA seq. J'y ai présenté l'impact de cet hétérogénéité à travers un pipeline d'analyse standard, et de l'importance de la prendre en compte. Durant cette présentation, j'ai utilisée trois jeux de données différents générés au laboratoire pour appuyer mon discours."
+  tags: ['Academic', 'Professional', 'Transcriptomics', 'Presentation']
+
+- name: Toolbox - FeaturePlot
+  # logo:
+  role: Owner
+  timeline: "Mars, 2021 - Août, 2021"
+  repo: https://github.com/martin-jeremy/toolbox-featureplot
+  url: martin-jeremy.shinyapps.io/featureplot
+  summary : "Une WebApp de visualisation de données scRNA seq. Ce repo est une ébauche d'utilisation de RShiny appliquée au scRNA seq et au objet de classe SeuratObject"
+  tags: ['Academic', 'Personnal', 'R', 'Shiny']

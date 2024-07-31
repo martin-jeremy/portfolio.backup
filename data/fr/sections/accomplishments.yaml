@@ -1,0 +1,58 @@
+# ################################################
+# This sections is about accomplishments and class 
+# succeed. Entries needs to follow this template:
+# accomplishments:
+# - name:
+#   timeline:
+#   organization:
+#     name:
+#     url:
+#   courseOverview:
+#   certificateURL: (optional)
+# ################################################
+
+section:
+  name: Certificats et formations
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  hideTitle: false # optionally hide the title in sections
+
+accomplishments:
+- name: ISTQB Foundation
+  timeline: "12/22/2023"
+  organization:
+    name: CFTL
+    url: "https://www.gasq.org/fr/certification/istqb.html#article-3154"
+  certificateURL: "https://app.skillsclub.com/credential/49138-ddec7ac423726b6ad77befde5ad293049365e4a8c6fa32c225b2298663275ac8"
+
+- name: Apprentissage Machine avec R et Caret
+  timeline: "05/24 - 05/31 - 06/07/2023"
+  organization:
+    name: Formatech Consulting
+    url: "http://www.formatech-consulting.com/accueil.html"
+
+- name: Apprentissage Machine et Profond avec R et Keras
+  timeline: "09/27 - 09/28/2022"
+  organization:
+    name: INRAe Occitanie - Toulouse, Genotoul Biostat
+    url: "https://perso.math.univ-toulouse.fr/biostat/formation/practicals-on-machine-and-deep-learning-using-r-keras/"
+
+- name: Evaluation Apprentissage Machine
+  timeline: "08/30/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"
+
+- name: Evaluation Bash
+  timeline: "08/30/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"
+
+- name: Evaluation R
+  timeline: "04/22/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"

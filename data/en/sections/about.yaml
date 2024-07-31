@@ -1,0 +1,63 @@
+# Section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# Designation
+designation: Data Consultant | QA Tester
+company:
+  name: Alliance4U
+  url: https://www.alliance4u.fr
+
+# Summary
+summary : "I'm a passionate **Data Analyst** with 3 years' experience. My scientific background and adaptability have allowed me to demonstrate my relevance outside my field of expertise: as a member of the technical innovation department, the third-party application acceptance team and quality assurance, I'm not afraid to take on any challenge!"
+
+# Social links
+socialLinks:
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/martin-jeremy"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/martin-jeremy"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jeremy.martin@alliance4u.fr"
+
+# Available CV download
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Badges and Skills
+badges:
+- type: soft-skill-indicator
+  name: Team working
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Autonomy
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Task Priorization
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: Adaptability and Flexibility
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Technical Vulgarization
+  percentage: 85
+  color: "#b5b5bd"

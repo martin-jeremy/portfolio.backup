@@ -1,0 +1,91 @@
+baseURL: https://martin-jeremy.github.io/
+
+languageCode: en-us
+title: "Jérémy Martin's Portfolio"
+theme: "toha"
+
+# Manage Languages
+languages:
+  en:
+    title: "Jérémy Martin's Portfolio"
+    languageName: English
+    weight: 1
+  fr:
+    title: "Portfolio de Jérémy Martin"
+    languageName: Français
+    weight: 2
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    render:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content
+# and client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo URL
+  gitRepo: https://github.com/martin-jeremy/martin-jeremy.github.io
+  # Default branch
+  gitBranch: master
+
+  # Configure features of this theme
+  features:
+    # Enable portfolio
+    portfolio:
+      enable: true
+    # Enable blog post
+    blog:
+      enable: false
+      # shareButtons:
+      #   facebook: true
+      #   twitter: true
+      #   linkedin: true
+      #   reddit: true
+      #   whatsapp: true
+      #   email: true
+    # Enable notes
+    notes:
+      enable: true
+  # Specify whether you want to show TOC in reading page
+  enableTOC: true
+  # Show tags under the post title
+  enableTags: true
+  
+  # Provide footer configuration
+  footer:
+    # Provide newsletter configuration
+    newsletter:
+      enable: false
+    credentials: 
+      enable: true
+    navigation:
+      enable: true
+      customMenus: true
+
+  # Background image for the landing page
+  background: images/site/background.jpg
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
+  # Enable dark theme
+  darkMode:
+    provider: darkreader
+    enable: true
+    default: system

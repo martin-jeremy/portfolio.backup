@@ -1,0 +1,53 @@
+# Section information
+section:
+  name: Competence
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+# Your skills
+skills:
+- name: R / RMarkdown
+  logo: images/sections/skills/Rmd.png
+  summary: "Utilisation en routine dans un contexte académique. Automatisation de l'édition de rapport RMarkdown. **Libraries communement utilisées :** _Tidyverse, Seurat, Monocle, DESeq2, Limma, Bioconductor environment_."
+  url: "https://www.r-project.org/"
+
+- name: RShiny
+  logo: images/sections/skills/RShiny.png
+  summary: "Construction de Dashboard pour présenter les données et les conclustions avec le framework RShiny. Construction d'une application Web pour permettre l'exploration de donnée scRNA-seq par les biologistes. **Librairies communement utilisées :** _Shiny, ShinyBS, ShinyDashboard, plotly, ShinyJS_."
+  url: "https://shiny.rstudio.com/"
+
+- name: Python
+  logo: images/sections/skills/python.png
+  summary: "Prise en charge des data et preuve de concept de l'IA appliquée à la biology. Initiation aux interfaces graphiques avec Qt pour Python. **Libraries communement utilisées :** _Num/SciPy, Pandas, Keras, Scikit-Learn, Plotly_."
+  url: "https://www.python.org/psf/"
+
+- name: Snakemake
+  logo: images/sections/skills/Snakemake.png
+  summary: "Workflow manager utilisé pour automatiser de manière reproductible le pipeline d'analyse. Snakemake a été développé pour réaliser des traitements RNA-seq en masse et des traitements Hi-C."
+  url: "https://snakemake.readthedocs.io/en/stable/"
+
+- name: Linux
+  logo: images/sections/skills/Linux.png
+  summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell. Polyvalence avec un émulateur de terminal. Familiarisé avec les clusters HPC SLURM ([GenoToul](http://bioinfo.genotoul.fr/))."
+
+- name: Git
+  logo: images/sections/skills/Git.png
+  summary: "Expérimenté avec le développement basé sur git. J'utilise principalement GitHub sur mon compte personnel et sur le compte de mon organisation. J'ai également de l'expérience dans l'utilisation de GitLab."
+  url: "https://git-scm.com"
+
+- name: Alphafold
+  logo: images/sections/skills/Deepmind.png
+  summary: "Démarrage avec Alphafold et Alphafold-multimer. Visualisation des données et manipulation des modèles avec ChimeraX de l'UCSC."
+  url: "https://github.com/deepmind/alphafold"
+
+- name: ISTQB
+  logo: images/sections/skills/istqb.png
+  summary: "ISTQB Foundation (v4) certified."
+  url: "https://istqb.org"
+
+# - name: Cluster Computing
+#   logo: images/sections/skills/
+#   summary:
+#   url:

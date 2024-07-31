@@ -1,0 +1,21 @@
+# some information about you
+name: "Jérémy Martin"
+nickname: "Jérémy"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/jeremy.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "jeremy.martin@alliance4u.fr"
+  # phone: "+0123456789"
+  github: martin-jeremy
+  linkedin: martin-jeremy
+
+# some summary about what you do
+summary:
+  - I am a passionated Data Analyst.
+  - I am a Data Scientist for Life Science.
+  - Bioinformatics will stay my first love.
+  - I work both with Python and R.
+  - I love to work within innovative projects.
+  - I am a CFTL ISTQB Certified Tester.

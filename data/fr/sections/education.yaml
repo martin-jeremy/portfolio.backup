@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Éducation
+  id: education
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: Master 2 en Bioinformatique et Biologie des Systèmes
+  icon: fa-graduation-cap
+  timeframe: 2020-2021
+  institution:
+    name: Université Toulouse III, Paul Sabatier
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 1
+    outOf: 16
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Modélisation et Biologie des Systèmes
+    - name: Introduction à l'apprentissage machine
+    - name: Communication scientifique
+    - name: Base de données et Base de données avancés
+    - name: Intégration de données hétérogènes
+    - name: Phylogénomie
+    - name: Introduction à la paléogénomique
+  extracurricularActivities:
+  - "Stage de 6 mois : Etudes the la communication entre les neurones sensoriels et les cellules immunitaires dans un contexte de dermatite allergique de contact : une approche bioinformatique."
+
+- name: Master 1 en Bioinformatique et Biologie des Systèmes
+  icon: fa-graduation-cap
+  timeframe: 2019-2020
+  institution:
+    name: Université Toulouse III, Paul Sabatier
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 3
+    outOf: 17
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Bioinformatique des Séquences
+    - name: Bioinformatique pour la Génomique
+    - name: Programmation pour la bioinformatique (Python) 
+    - name: Théorie des graphes et réseaux biologiques
+    - name: Introduction aux bases de données
+    - name: Mathématiques pour la biologie
+    - name: Algorithmique et compléxitée
+    - name: Traitement de données postgenomiques
+    - name: Evolution moléculaire
+    - name: Fouille de données
+    - name: Programmation avancée et ingénierie logicielle (Java)
+    - name: Analyse de données multivariées
+    - name: Biostatistique et modèles linéaires avancées
+  extracurricularActivities:
+  - "Stage de 2 mois : Polled-HiC, une analyse de cartographie chromosomique d'une regions d'intérêt dans un modèle bovin."
+  - "Projet tutoré : Comparaison d'outils de comptage de reads et caractérisation des différences dans le calcul de profondeur de séquençage."
+
+- name: Licence de Biologie, mention Biochimie, Biologie Moléculaire et Microbiologie
+  icon: fa-graduation-cap
+  timeframe: 2017-2019
+  institution:
+    name: Université Toulouse III, Paul Sabatier
+    url: "https://www.univ-tlse3.fr/licence-parcours-biochimie-biologie-moleculaire-et-microbiologie-2b2m"
+  takenCourses: 
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Biochimie structurale
+    - name: Biochimie analytique
+    - name: Microbiologie et génétique molécualire
+    - name: Méthodologie en biologie moléculaire
+    - name: Immunologie
+    - name: Bioanalyses
+    - name: Interaction Proteine-Proteine
+    - name: Metabolisme et Enzymologie
+    - name: Biologie cellulaire
+
+- name: Brevet de Technicien Supérieur, mention Analyse de Biologie Médicale
+  icon: fa-university
+  timeframe: 2012-2014
+  institution:
+    name: Lycée du Dr Lacroix
+    url: "https://docteur-lacroix.mon-ent-occitanie.fr/"
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Techniques en biochimie clinique
+    - name: Techniques en hématologie clinique
+    - name: Techniques en microbiologie clinique
+    - name: Techniques en parastiologie clinique
+    - name: Techniques en immunologie clinique
+    - name: Biologie humaine et homéostasie
+    - name: Qualité en laboratoire
+  extracurricularActivities:
+  - "Stage : Département de pathologie clinique des Hopitaux de Toulouse. Immersion pratique au sein du département de cytologie pathologique, acquisition des bonnes pratiques en laboratoire de cytologie et d'histologie, des techniques de routines et avancées en (immuno)-histo/cytochimie."
